@@ -1,0 +1,17 @@
+public class Numero {
+    
+    private int numero;
+    
+    public Numero(int numero) {
+        this.numero = numero;
+    }
+    
+    public void exibirNumero() {
+        System.out.println("O numero e: " + this.numero);
+    }
+    
+    public static void main(String[] args) {
+        Numero num = new Numero(10);
+        num.exibirNumero();
+    }
+}
